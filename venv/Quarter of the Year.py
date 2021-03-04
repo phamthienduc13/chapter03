@@ -1,4 +1,4 @@
-user_month = int(input('Enter a month between 1 and 12: '))
+user_month = int(input('Enter a month between 1-12: '))
 if user_month < 1 or user_month > 12:
     message = "Error. Please re-enter the month"
 else:

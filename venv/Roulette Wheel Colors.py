@@ -1,7 +1,5 @@
 userPocketNumber = int(input("Enter a pocket number: "))
-
 if userPocketNumber >= 0 and userPocketNumber <= 36:
-
     if userPocketNumber == 0:
         userPocketColor = "green"
 

@@ -8,5 +8,5 @@ message = '' + format(month) + '/' \
 if ((month * day) == year):
      message += 'magic.'
 else:
-    message += 'NOT magic.'
+    message += 'not magic.'
 print(message, " ")
